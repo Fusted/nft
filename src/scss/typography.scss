@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+$base-font: 'Source Sans Pro', sans-serif;
+$main: #fff;
+$grey: #6B748A;
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: $main;
+}
+
+
+h1 {
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 103%;
+    
+}
+
+h3 {
+    display: block;
+    font-weight: 900;
+    font-size: 1.7vw;
+    line-height: 103%;
+}
+
+
+.btn {
+    color: $main;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 103%;
+}
+
+
+.nav__link {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 103%;
+    color: $grey;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 103%;
+}
+
+h4 {
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 103%;
+    color: $main;
+}
+
+p {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 103%;
+    color: $grey;
+}
+
+.section__title--text {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 103%;
+    color: $grey;
+}
+
+
+.card__title {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 103%;
+}
+
+
+.card__text {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 103%;
+    color: $grey;
+}
