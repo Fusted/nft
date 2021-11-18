@@ -2,6 +2,7 @@
 $base-font: 'Source Sans Pro', sans-serif;
 $main: #fff;
 $grey: #6B748A;
+$yellow: #A6A849;
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
@@ -79,4 +80,16 @@ p {
     font-size: 16px;
     line-height: 103%;
     color: $grey;
+}
+
+
+.roadmap__title {
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 103%;
+}
+
+
+.yellow {
+    color: $yellow;
 }

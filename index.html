@@ -15,13 +15,24 @@
         <header class="header">
             <div class="header__item">
                 <img src="src/img/logo.webp" alt="blure">
-                <nav>
-                    <a class='nav__link' href="#">Our papers</a>
-                    <a class='nav__link' href="#">Purpose</a>
-                    <a class='nav__link' href="#">Parity</a>
-                    <a class='nav__link' href="#">Roadmap</a>
+                                    
+                <nav id='#menu__wrapper'>
+                    <div class="nav__toggle">
+                        <div class="btn__line line--1"></div>
+                        <div class="btn__line line--2"></div>
+                        <div class="btn__line line--3"></div>
+                        <div class="btn__line line--4"></div>
+                    </div>   
+                    
+                    <ul class='nav__links'>
+                        <li><a class='nav__link' href="#">Our papers</a></li>
+                        <li><a class='nav__link' href="#">Purpose</a></li>
+                        <li><a class='nav__link' href="#">Parity</a></li>
+                        <li><a class='nav__link' href="#">Roadmap</a></li>
+                    </ul>
+                        
                 </nav>
-
+                    
             </div>
     
             <div class="header__item">
@@ -31,11 +42,11 @@
             </div>
         </header>
 
-        <!-- <div class='bgitems' >
+        <div class='bgitems' >
             <img id='gr1' src="src/img/graffity.webp" alt="">
             <div id='el1' class="ellipse"></div>
             <div id='el2' class="ellipse"></div>
-        </div> -->
+        </div>
 
         <div class='intro__item--wrapper'>
 
@@ -64,7 +75,7 @@
     </div> 
 
     <!-- intro -->
-    <section class='section info'>
+    <section class='section'>
         <div class="section__title">
             <div class="section__title--header"><h2>Our Rapers</h2></div>
             <div class="section__title--text">Here is our OG collection. Do not be alarmed that information about some of them is not available, we will gradually reveal their identities as the audience grows in our social networks</div>
@@ -116,10 +127,31 @@ taken to a page with attributes and rarity chart.
 
     </section>
 
-    <div class="section roadmap">
+    <div class="section section--roadmap">
         <div class="section__title">
             <div class="section__title--header"><h2>Our roadmap</h2></div>
             <div class="section__title--text">Well, here you can see our roadmap - how our project will live.</div>
+        </div>
+
+        <div class="roadmap">
+            <div class="roadmap__boxes">
+                <button class="btn--box"></button> <span class="box--line"></span>
+                <button class="btn--box"></button> <span class="box--line"></span>
+                <button class="btn--box"></button> <span class="box--line"></span>
+                <button class="btn--box"></button> <span class="box--line"></span>
+                <button class="btn--box"></button> <span class="box--line"></span>
+                <button class="btn--box"></button> <span class="box--line"></span>
+                <button class="btn--box"></button> <span class="box--line"></span>
+                <button class="btn--box"></button> <span class="box--line"></span>
+                <button class="btn--box"></button> <span class="box--line"></span>
+                <button class="btn--box"></button> <span class="box--line"></span>
+            </div>
+            <div class="roadmap__info">
+                <div class="roadmap__title">
+                    <span class='yellow'>Step #4 -</span> Website release
+                </div>
+                <p>We are release our website where all information about the project will be available. Also we will show you the attributes of Snoop Dogg.</p>
+            </div>
         </div>
     </div>
 
