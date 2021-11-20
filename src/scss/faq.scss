@@ -1,0 +1,57 @@
+$btn-bg: #777a80;
+
+
+.post__header {
+    margin-top: 132px;
+}
+
+.faq__item {
+    margin-bottom: 25px;
+    padding: 30px;
+    background: rgba(37, 42, 54, 0.5);
+    backdrop-filter: blur(100px);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq__btn {
+    width: 33px;
+    height: 33px;
+    border-radius: 10px;
+    border: none;
+    background: $btn-bg;
+    position: relative;
+
+    &::before, &::after {
+        display: block;
+        content: '';
+        background: #fff;
+        border: none;
+        border-radius: 10px;
+        width: 14px;
+        height: 2.5px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: .3s all linear;
+    }
+
+    &::after {
+        transform: rotate(90deg);
+        top: 18px;
+        left: 10px;
+        height: 1.5px;
+    }
+    
+}
+
+
+.faq-active .faq__btn::before{
+    transform: rotate(-45deg);
+}
+
+.faq-active .faq__btn::after{
+    transform: rotate(45deg);
+}
