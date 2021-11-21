@@ -11,6 +11,11 @@ $btn-bg: #777a80;
     background: rgba(37, 42, 54, 0.5);
     backdrop-filter: blur(100px);
     border-radius: 10px;
+    width: 100%;
+}
+
+
+.faq__item--main-wrapper {
     display: flex;
     justify-content: space-between;
 }
@@ -40,7 +45,7 @@ $btn-bg: #777a80;
 
     &::after {
         transform: rotate(90deg);
-        top: 18px;
+        top: 16px;
         left: 10px;
         height: 1.5px;
     }
@@ -48,10 +53,16 @@ $btn-bg: #777a80;
 }
 
 
-.faq-active .faq__btn::before{
-    transform: rotate(-45deg);
-}
 
-.faq-active .faq__btn::after{
-    transform: rotate(45deg);
-}
+// .faq-active .faq__btn::before{
+//     transform: rotate(-45deg);
+// }
+
+// .faq-active .faq__btn::after{
+//     transform: rotate(45deg);
+// }
+
+
+// .faq-active {
+
+// }
