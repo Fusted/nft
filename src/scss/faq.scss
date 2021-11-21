@@ -5,6 +5,10 @@ $btn-bg: #777a80;
     margin-top: 132px;
 }
 
+.faq__wrapper{
+    margin: 0 auto;
+}
+
 .faq__item {
     margin-bottom: 25px;
     padding: 30px;
@@ -12,6 +16,7 @@ $btn-bg: #777a80;
     backdrop-filter: blur(100px);
     border-radius: 10px;
     width: 100%;
+    transition: .3s all linear;
 }
 
 
@@ -19,6 +24,22 @@ $btn-bg: #777a80;
     display: flex;
     justify-content: space-between;
 }
+
+.faq__text {
+    margin-top: 20px;
+    max-width: 1200px;
+    display: none;
+    transition: .3s all linear;
+}
+
+.faq__active {
+    display: block;
+}
+
+.faq__active .faq__item {
+    padding: 0;
+}
+
 
 .faq__btn {
     width: 33px;

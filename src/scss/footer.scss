@@ -1,0 +1,28 @@
+.footer {
+    
+    padding: 130px 10vw 100px 10vw;
+}
+.footer__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+
+    .footer__item{ 
+        img {
+            max-height: 70px;
+            height: 70px;
+        }
+
+    }
+
+    .footer__item--icons {
+        display: flex;
+
+        a {
+            margin-left: 16px;
+        }
+        
+    }
+
+}

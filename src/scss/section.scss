@@ -63,3 +63,23 @@
 .post__text--short {
     max-width: 650px;
 }
+
+
+.section--join {
+    padding: 0;
+    width: 100vw;
+    min-height: 25vw;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../img/footer_bg.webp');
+}
+
+.join {
+    padding: 75px 10vw;
+}
+
+
+.join__title {
+    opacity: .9;
+}

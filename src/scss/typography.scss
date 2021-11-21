@@ -101,3 +101,19 @@ p {
     font-size: 26px;
     line-height: 103%;
 }
+
+.faq__text {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 103%;
+    color: $grey;
+}
+
+.join__text {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 103%;
+    color: $main;
+    margin-top: 45px;
+    opacity: .8;
+}
