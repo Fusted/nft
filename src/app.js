@@ -6,6 +6,7 @@ import './scss/roadmap.scss'
 import './scss/burger.scss'
 import './scss/faq.scss'
 import './scss/footer.scss'
+import './scss/bg_items.scss'
 
 import './scss/adaptive.scss'
 

@@ -3,19 +3,12 @@ body, h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
-// html{
-
-//     width: 100%;
-//     max-width: 100%;
-//     overflow-x: hidden;
-// }
-
-  body
-  {
-    // width: 100%;
-    // max-width: 100%;
+html, body {
+    width: 100%;
+    max-width: 100%;
     overflow-x: hidden;
-  }
+}
+
 *,
 *::after,
 *::before {

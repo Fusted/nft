@@ -47,8 +47,6 @@
 
 
 .ul--active {
-    left: 50% !important;
-    // background-color: #000;
     z-index: 1;
     
         li {
@@ -62,33 +60,14 @@
                 padding: 0 10px;
             }
         }
-    
+
+    &.nav__links {
+        display: flex;
+        left: 50%;
+    }
 }
 
 
 
 
-@media (max-width: 768px) {  
-        .nav__toggle {
-            display: block;
-        }
-        nav {
-            position: static;
-            .nav__links {
-                position: absolute;
-                width: 100vw;
-                bottom: -160%;
-                transform: translateX(-50%);
-                display: flex;
-                justify-content: center;
-                transition: .3s all linear;
-                left: 300%;
-                li {
-                    a {
-                        font-size: 25px;
-                    }
-                }
-            }
-        }  
-}
 

@@ -10,35 +10,7 @@ body {
 // 1vh = 10.8px
 // 1vw = 19.2px
 
-.bgitems {
-    // position: absolute;
-    .ellipse {
-        position: absolute;
-        width: 21.6vw;
-        height: 21.59vw;
-        border-radius: 100%;
-        background: #A6A849;
-        filter: blur(150px);
-        &#el1 {
-            top: 5%;
-            right: -15%;
-        }
 
-        &#el2 {
-            top: 50%;
-            left: -15%;
-        }
-    }
-
-    #gr1 {
-        position: absolute;
-        width: 19.3vw;
-        height: 19.3vw;
-        top: 10%;
-        left: -7%;
-    }
-    
-}
 
 
 
@@ -47,6 +19,7 @@ body {
     height: 100vh;
     max-height: 100%;
     background: $bg-main;    
+    position: relative;
 }
 
 
@@ -104,27 +77,27 @@ body {
             border-radius: 42px;
             position: relative;
     
-            &::before {
-                content: '';
-                display: block;
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                background: #717334;
-                filter: blur(15px);
-                border-radius: 42px;
-                top: 24px;
-                left: 50%;
-                transform: translateX(-50%);
-                z-index: 1;
-            }  
+            // &::before {
+            //     content: '';
+            //     display: block;
+            //     position: absolute;
+            //     width: 100%;
+            //     height: 100%;
+            //     background: #717334;
+            //     filter: blur(15px);
+            //     border-radius: 42px;
+            //     top: 24px;
+            //     left: 50%;
+            //     transform: translateX(-50%);
+            //     z-index: 1;
+            // }  
         }
 
         
     
         a {
             text-decoration: underline;
-            font-size: 1.4vw;
+            font-size: 26px;
         }
     }
 }
@@ -156,8 +129,7 @@ body {
     display: flex;
     /*0 .28 */
     img {
-        width: 13vw;
-        height: 3.6vw;
+        height: 70px;
         margin: auto;
         margin-right: 25px;
     }
@@ -185,7 +157,7 @@ body {
 .btn {
     border: 2px solid #FFFFFF;
     border-radius: 42px;
-    padding: 1vw 1.7vw;
+    padding: 18px 33px;
     background: none;
 }
 
@@ -218,7 +190,7 @@ nav {
     li {
         a {
             margin-right: 25px;
-            font-size: 1.2vw;
+            font-size: 22px;
             line-height: 70px;
             text-transform: uppercase;
             text-decoration: none;
