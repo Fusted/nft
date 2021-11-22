@@ -13,6 +13,7 @@ const faqWrapper = document.querySelector('.faq__wrapper')
 faqWrapper.addEventListener('click', (e) => {
     
     if (e.target.classList.contains('faq__btn')){
+        e.target.classList.toggle('faq__btn--active')
         e.target.parentElement.parentElement.querySelector('.faq__text').classList.toggle('faq__active') 
     }
 })

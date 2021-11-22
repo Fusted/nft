@@ -19,11 +19,19 @@
 }
 
 @media (max-width: 940px) {
+
+  .roadmap {
+    padding: 30px 20px;
+  }
+
   .btn--box {
     min-width: 30px;
     height: 30px;
-    margin: 0 7px;
     border-radius: 10px;
+  }
+
+  .box--line {
+    margin: auto 6px;
   }
 
   h1 {
@@ -126,6 +134,41 @@
   }
 }
 
+
+@media (max-width: 768px) {
+
+  .roadmap__title {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .roadmap__boxes {
+    display: none;
+  }
+
+  .roadmap__info {
+    display: block;
+  }
+
+  .faq__item {
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .faq__text {
+    font-size: 14px;
+  }
+
+  .faq__btn {
+    margin-left: 10px;
+    width: 29px;
+    height: 29px;
+  }
+}
+
 @media (max-width: 550px) {
 
   h1 {
@@ -190,5 +233,14 @@
   .intro__item--wrapper {
     grid-template-columns: 1fr;
     grid-template-rows: 300px 300px;
+  }
+
+
+  .footer__items {
+    .footer__item {
+      img {
+        height: 40px;
+      }
+    }
   }
 }

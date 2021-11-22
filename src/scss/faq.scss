@@ -48,42 +48,17 @@ $btn-bg: #777a80;
     border: none;
     background: $btn-bg;
     position: relative;
+    background-image: url('../img/plus.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: .3s all linear;
 
-    &::before, &::after {
-        display: block;
-        content: '';
-        background: #fff;
-        border: none;
-        border-radius: 10px;
-        width: 14px;
-        height: 2.5px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        transition: .3s all linear;
-    }
+}
 
-    &::after {
-        transform: rotate(90deg);
-        top: 16px;
-        left: 10px;
-        height: 1.5px;
-    }
+.faq__btn--active {
     
+    background-image: url('../img/cross.svg');
 }
 
 
 
-// .faq-active .faq__btn::before{
-//     transform: rotate(-45deg);
-// }
-
-// .faq-active .faq__btn::after{
-//     transform: rotate(45deg);
-// }
-
-
-// .faq-active {
-
-// }
