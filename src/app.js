@@ -8,9 +8,8 @@ import './scss/faq.scss'
 import './scss/footer.scss'
 import './scss/bg_items.scss'
 
-
 import './scss/adaptive.scss'
-
+import './scss/animation.scss'
 
 
 import './js/script';

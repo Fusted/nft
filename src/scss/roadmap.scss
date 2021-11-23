@@ -27,13 +27,18 @@ $secondary: #6B748A;
 
 
 .btn--box {
-    min-width: 36px;
-    width: 36px;
-    height: 36px;
-    padding: 7px;
+    min-width: 50px;
+    min-height: 50px;
+    width: 50px;
+    height: 50px;
+    padding: 6px;
     border: none;
     background-color: $secondary;
-    
+    background-image: url('../img/notchecked.webp');
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+
     border-radius: 15px;
     position: relative;
     margin: 0;
@@ -41,28 +46,9 @@ $secondary: #6B748A;
     
     &.box-checked {
         background-color: $yellow;
-
-        .box--line + & {
-            background: $yellow;
-        }
-
+        background-image: url('../img/checked.webp');
     }
     
-    &::before {
-        content: '';
-        display: block;
-        background: url('../img/notchecked.webp') center no-repeat;
-        background-size: 22px;
-        width: 30px;
-        height: 30px;
-        opacity: 0.4;
-        border-radius: 5px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
     &:first-child {
         margin: 0;
     }
@@ -71,8 +57,23 @@ $secondary: #6B748A;
     }
 }
 
+.box--active {
+    position: relative;
 
-
+    &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 130%;
+        height: 130%;
+        border: 2px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 20px;
+    }
+}
 
 .box--line {
     margin: auto 13px;
@@ -82,6 +83,10 @@ $secondary: #6B748A;
     height: 6px;
     background: $secondary;
     border-radius: 46px;
+}
+
+.box--line-checked{
+    background-color: $yellow;
 }
 
 
