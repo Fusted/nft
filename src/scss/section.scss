@@ -17,6 +17,7 @@
 }
 
 .cards {
+    position: relative;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -66,6 +67,7 @@
 
 
 .section--join {
+    position: relative;
     padding: 0;
     width: 100vw;
     min-height: 25vw;
@@ -76,11 +78,17 @@
     margin-top: 150px;
 }
 
+.section--roadmap {
+    position: relative;
+}
+
 .join {
     padding: 75px 10vw;
 }
 
 
 .join__title {
+    margin-top: 61px;
     opacity: .9;
 }
+

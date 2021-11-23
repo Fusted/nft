@@ -1,3 +1,5 @@
+$c: 1.3;
+
 @media (max-width: 1200px) {
   .intro {
     padding: 36px 7vw 170px 7vw;
@@ -19,6 +21,12 @@
 }
 
 @media (max-width: 940px) {
+
+  .section {
+    .section__title {
+      margin-top: 100px;
+    }
+  }
 
   .roadmap {
     padding: 30px 20px;
@@ -125,11 +133,36 @@
 
     .ellipse {
       width: 30vw;
-      height: 30vw;
     }
 
     .graffity {
-      width: (19.3vw * 1.3);
+      width: (19.3vw * $c);
+    }
+
+    #logo2-1 {
+      top: -7%;
+      width: (26vw * $c);
+  }
+  
+    #smoke {
+        width: (11vw * $c);
+    }
+
+    #graffity2 {
+        width: (16vw * $c);
+    }
+
+    #graffity-small {
+        bottom: -1%;
+        width: (11vw * $c);
+    }
+
+    #chain {
+        width: (9vw * $c);
+    }
+
+    #glasses {
+      width: 30vw;
     }
   }
 }

@@ -1,7 +1,10 @@
 .bgitems {
-    // position: absolute;
-    .ellipse {
+    z-index: -1;
+    & > * {
         position: absolute;
+    }
+    .ellipse {
+        
         width: 21.6vw;
         height: 21.59vw;
         border-radius: 100%;
@@ -19,7 +22,6 @@
     }
 
     .graffity {
-        position: absolute;
         width: 19.3vw;
         height: auto;
     }
@@ -27,5 +29,41 @@
         top: 10%;
         left: -7%;
     }
+
+    #logo2-1 {
+        width: 26vw;
+        top: -50%;
+        left: -19%;
+    }
     
+    #smoke {
+        width: 11vw;
+        top: 8%;
+        right: -13%;
+    }
+
+    #graffity2 {
+        width: 16vw;
+        top: -3%;
+        right: 8%;
+        z-index: -1;
+    }
+
+    #graffity-small {
+        width: 11vw;
+        bottom: -5%;
+        right: 7%;
+    }
+
+    #chain {
+        width: 9vw;
+        top: 100%;
+        right: 30%;
+    }
+
+    #glasses {
+        top: -5%;
+        left: 20%;
+    }
 }
+
