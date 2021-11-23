@@ -11,7 +11,13 @@
         margin-bottom: 60px;
 
         .section__title--header {
+            display: flex;
+            justify-content: center;
             margin-bottom: 25px;
+            img {
+                margin-left: 10px;
+                width: 44px;
+            }
         }
     }
 }
@@ -53,7 +59,13 @@
 
 .post__header {
     margin-top: 180px;
-    max-width: 575px;
+
+    img {
+        width: 44px;
+        height: 100%;
+        position: relative;
+        top: 7px;
+    }
 }
 
 .post__text--long {

@@ -1,4 +1,4 @@
-$yelllow: #A6A849;
+$yellow: #A6A849;
 $main: #ffffff;
 $secondary: #6B748A;
 $bg-main: #12131F;
@@ -66,31 +66,17 @@ body {
         width: 100%;
         position: absolute;
         bottom: 0; 
+        display: flex;
+
         
-    
 
         .btn {
-            background: #A6A849;
+            background: $yellow;
             border: none;
-            margin-right: 45px;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
             border-radius: 42px;
             position: relative;
-    
-            // &::before {
-            //     content: '';
-            //     display: block;
-            //     position: absolute;
-            //     width: 100%;
-            //     height: 100%;
-            //     background: #717334;
-            //     filter: blur(15px);
-            //     border-radius: 42px;
-            //     top: 24px;
-            //     left: 50%;
-            //     transform: translateX(-50%);
-            //     z-index: 1;
-            // }  
+            z-index: 1;
         }
 
         
@@ -98,8 +84,34 @@ body {
         a {
             text-decoration: underline;
             font-size: 26px;
+            line-height: 58px;
+            margin-left: 45px;
         }
     }
+}
+
+.btn--wrapper {
+    position: relative;
+    max-width: (114px + 53px + 53px + 1px);
+}
+
+.btn--blure {
+    z-index: 0;
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    top: 24%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #717334;
+    filter: blur(15px);
+    border-radius: 42px;
+}
+
+.blure2 {
+    z-index: -1;
+    height: 60%;
+    top: 50%;
 }
 
 .underline {
@@ -172,6 +184,7 @@ body {
     padding: 16px 53px;
     background: #A6A849;
     border-radius: 58px;
+    z-index: 1;
 }
 
 
