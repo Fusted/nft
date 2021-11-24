@@ -20,5 +20,8 @@
     "webpack": "^5.64.0",
     "webpack-cli": "^4.9.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "wow.js": "^1.2.2"
+  }
 }
