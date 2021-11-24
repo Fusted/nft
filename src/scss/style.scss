@@ -201,12 +201,32 @@ nav {
 .nav__links {
     display: flex;
     li {
+        
         a {
             margin-right: 25px;
             font-size: 22px;
             line-height: 70px;
             text-transform: uppercase;
             text-decoration: none;
+        
+        }
+        .nav__active {
+            color: #fff;
+            position: relative;
+
+            &::after {
+                content: '';
+                display: block;
+                position: absolute;
+                left: 0;
+                bottom: -5px;
+                width: 30px;
+                height: 5px;
+                
+                background: #A6A849;
+                border-radius: 9px;
+            }
         }
     }
 } 
+

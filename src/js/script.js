@@ -28,7 +28,8 @@ window.addEventListener('DOMContentLoaded', () => {
         if (e.target.classList.contains('btn--box')){
             const num = parseInt(e.target.getAttribute('data-btn'))
             const active = roadmap.querySelectorAll('.roadmap__info--active')
-
+            roadmap.querySelector('.box--active').classList.remove('box--active')
+            e.target.classList.add('box--active')
 
             for (let i = 1; i < num + 1; i++){
                 roadmap.querySelector(`[data-btn='${i}'`).classList.add('box-checked')
@@ -44,10 +45,5 @@ window.addEventListener('DOMContentLoaded', () => {
             (roadmap.querySelector(`[data-info='${num}'`)).classList.add('roadmap__info--active')
         }
     })
-
-
-    //animation
-
-
 
 })
