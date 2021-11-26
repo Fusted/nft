@@ -226,6 +226,8 @@ $c: 1.3;
 
   .faq__btn {
     margin-left: 10px;
+    min-width: 29px;
+    min-height: 29px;
     width: 29px;
     height: 29px;
   }
@@ -235,7 +237,13 @@ $c: 1.3;
 
   .btn--yellow {
     font-size: 23px;
+    padding: 12px 32px;
   }
+
+  .btn--wrapper {
+    max-width: 165px;
+  }
+
 
   h1 {
     font-size: 31px;

@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
-$base-font: 'Source Sans Pro', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,800,900&subset=cyrillic-ext');
+$base-font: 'Montserrat', sans-serif;
 $main: #fff;
 $grey: #6B748A;
 $yellow: #A6A849;
 
+
+
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: $base-font;
     color: $main;
 }
 
