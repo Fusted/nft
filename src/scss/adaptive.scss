@@ -196,8 +196,9 @@ $c: 1.3;
 @media (max-width: 768px) {
 
   .roadmap {
-    padding: 1px 24px;
+    padding: 1px 24px 47px;
   }
+
 
   .roadmap__title {
     font-size: 22px;
@@ -213,6 +214,11 @@ $c: 1.3;
 
   .roadmap__info {
     display: block;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
   }
 
   .faq__item {
@@ -234,6 +240,12 @@ $c: 1.3;
 }
 
 @media (max-width: 550px) {
+
+  .section {
+    .section__title {
+      width: 95%;
+    }
+  }
 
   .btn--yellow {
     font-size: 23px;
