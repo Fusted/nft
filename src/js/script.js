@@ -31,10 +31,10 @@ window.addEventListener('DOMContentLoaded', () => {
             roadmap.querySelector('.box--active').classList.remove('box--active')
             e.target.classList.add('box--active')
 
-            for (let i = 1; i < num + 1; i++){
-                roadmap.querySelector(`[data-btn='${i}'`).classList.add('box-checked')
-                roadmap.querySelector(`[data-btn='${i}'`).previousSibling.classList.add('box--line-checked')
-            }
+            // for (let i = 1; i < num + 1; i++){
+            //     roadmap.querySelector(`[data-btn='${i}'`).classList.add('box-checked')
+            //     roadmap.querySelector(`[data-btn='${i}'`).previousSibling.classList.add('box--line-checked')
+            // }
 
             if (active.length){
                 active.forEach(item => {
