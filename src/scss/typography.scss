@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,800,900&subset=cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,800,700,900&subset=cyrillic-ext');
 $base-font: 'Montserrat', sans-serif;
 $main: #fff;
 $grey: #6B748A;
@@ -21,7 +21,7 @@ h1 {
 
 h3 {
     display: block;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 22px;
     line-height: 103%;
 }
