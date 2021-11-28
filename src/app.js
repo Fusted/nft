@@ -13,4 +13,12 @@ import './scss/animation.scss'
 
 
 import './js/script';
-import './js/btns'
+// import './js/wow.min'
+
+// new WOW().init();
+
+// const wow = new WOW()
+
+// wow.init()
+
+// console.log(wow)
