@@ -1,1 +1,0 @@
-export const qr2 = '<a href="http://qrcoder.ru" target="_blank"><img src="http://qrcoder.ru/code/?https%3A%2F%2Fyoutu.be%2FdQw4w9WgXcQ%3Ft%3D85&4&0" width="148" height="148" border="0" title="QR код"></a>'
