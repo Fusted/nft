@@ -80,6 +80,7 @@ body {
             font-size: 26px;
             line-height: 58px;
             margin-left: 45px;
+            font-weight: 700;
         }
     }
 }
@@ -163,7 +164,7 @@ body {
 .btn {
     border: 2px solid #FFFFFF;
     border-radius: 42px;
-    padding: 18px 33px;
+    padding: 18px 43px;
     background: none;
 }
 
@@ -179,6 +180,10 @@ body {
     background: #A6A849;
     border-radius: 58px;
     z-index: 1;
+}
+
+.btn--yellow-ds {
+    padding: 13px 40px;
 }
 
 
@@ -202,7 +207,7 @@ nav {
             line-height: 70px;
             text-transform: uppercase;
             text-decoration: none;
-        
+            font-weight: 500;
         }
         .nav__active {
             color: #fff;
