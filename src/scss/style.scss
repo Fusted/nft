@@ -174,10 +174,8 @@ body {
 .btn {
     border: 2px solid #FFFFFF;
     border-radius: 42px;
-    // padding: 22px 33px;
     background: none;
-    width: 178px;
-    height: 60px;
+    padding: 18px 33px 19px 33px;
 }
 
 
@@ -216,6 +214,9 @@ nav {
 .nav__links {
     display: flex;
     li {
+        .nav__active {
+            font-weight: 700;
+        }
         
         a {
             margin-right: 25px;
