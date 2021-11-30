@@ -16,7 +16,7 @@ $c: 1.3;
   }
 
   .btn {
-    padding: 12px 28px;
+    width: 160px;
   }
 
   .btn--box {
@@ -131,6 +131,10 @@ $c: 1.3;
     .intro__bottom {
       a {
         font-size: 14px;
+
+        &::after {
+          bottom: 16px;
+        }
       }
     }
   }
@@ -247,6 +251,11 @@ $c: 1.3;
     width: 29px;
     height: 29px;
   }
+
+  .btn {
+    width: 140px;
+    height: 50px;
+  }
 }
 
 @media (max-width: 620px) {
@@ -263,6 +272,7 @@ $c: 1.3;
   }
 
   .btn--yellow-ds{
+    margin-top: 30px;
     font-size: 23px;
     padding: 12px 32px;
   }
@@ -361,6 +371,7 @@ $c: 1.3;
   }
 
   .btn {
+    width: 110px;
     h3 {
       font-size: 17px;
     }
