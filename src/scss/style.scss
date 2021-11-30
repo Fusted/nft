@@ -85,7 +85,7 @@ body {
             &::after {
                 position: absolute;
                 content: '';
-                bottom: 8px;
+                bottom: 12px;
                 left: 0;
                 width: 100%;
                 height: 3px;
@@ -97,7 +97,7 @@ body {
 
 .btn--wrapper {
     position: relative;
-    max-width: (114px + 53px + 53px + 1px);
+    max-width: 233px;
 }
 
 .btn--blure {
