@@ -228,7 +228,7 @@ nav {
         .nav__active {
             color: #fff;
             position: relative;
-
+            font-weight: 700;
             &::after {
                 content: '';
                 display: block;
