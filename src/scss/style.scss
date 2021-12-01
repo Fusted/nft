@@ -7,6 +7,11 @@ body {
     background-color: $bg-main;
 }
 
+.space {
+    width: (32px);
+    height: 1px;
+    display: inline-block;
+}
 
 .intro {
     padding: 36px 10.4vw  170px 10.4vw;

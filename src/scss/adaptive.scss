@@ -34,7 +34,9 @@ $c: 1.3;
 
 @media (max-width: 1160px) {
 
-
+  .space {
+    display: none;
+  }
 
   .btn--box {
     min-width: 30px;
