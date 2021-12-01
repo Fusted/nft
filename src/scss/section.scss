@@ -38,11 +38,12 @@
         text-align: center;
         max-width: min(350px, 20vw);
         flex: 1 1 auto;
-        margin: 15px 30px;
+        margin: 15px 75px 15px 00;
 
-        // &:last-child {
-        //     margin-right: 0;
-        // }
+
+        &:last-child {
+            margin-right: 0;
+        }
     }
 
     .card__img {
