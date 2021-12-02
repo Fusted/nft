@@ -83,6 +83,12 @@
     max-width: 650px;
 }
 
+.section--roadmap {
+    position: relative;
+}
+
+//join
+
 
 .section--join {
     position: relative;
@@ -96,17 +102,29 @@
     margin-top: 150px;
 }
 
-.section--roadmap {
-    position: relative;
-}
 
 .join {
     padding: 75px 10vw;
+    position: relative;
 }
 
 
 .join__title {
     margin-top: 61px;
-    opacity: .9;
+    mix-blend-mode: overlay;
 }
 
+.join__text {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 103%;
+    margin-top: 15px;
+    mix-blend-mode: overlay;
+}
+
+
+.j-a {
+    position: absolute;
+    top: 75px;
+    max-width: 80vw;
+}
