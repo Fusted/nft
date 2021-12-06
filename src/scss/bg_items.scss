@@ -3,13 +3,13 @@
     & > * {
         position: absolute;
     }
-    .ellipse {
-        
+    .ellipse { 
         width: 21.6vw;
         height: 21.59vw;
         border-radius: 100%;
         background: #A6A849;
-        filter: blur(40px);
+        -webkit-filter: blur(40px);
+                filter: blur(40px);
         &#el1 {
             top: 5%;
             right: -12%;
