@@ -172,6 +172,12 @@ $c: 1.3;
           font-size: 23px;
         }
 
+        &:hover a {
+          &::after {
+            display: none;
+          }
+        }
+
         .nav__active::after {
           content: none;
         }

@@ -12,13 +12,5 @@ import './scss/adaptive.scss'
 import './scss/animation.scss'
 
 
-import './js/script';
-// import './js/wow.min'
-
-// new WOW().init();
-
-// const wow = new WOW()
-
-// wow.init()
-
-// console.log(wow)
+import './js/script'
+import './js/scroll'

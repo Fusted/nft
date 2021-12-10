@@ -22,10 +22,10 @@
             </div>
 
             <ul class="nav__links">
-              <li><a class="nav__link nav__active" href="#">Our rapers</a></li>
-              <li><a class="nav__link" href="#">Purpose</a></li>
-              <li><a class="nav__link" href="#">Parity</a></li>
-              <li><a class="nav__link" href="#">Roadmap</a></li>
+              <li><a class="nav__link" data-scroll="#rapers">Our rapers</a></li>
+              <li><a class="nav__link" data-scroll="#purpose">Purpose</a></li>
+              <li><a class="nav__link" data-scroll="#rarity">Rarity</a></li>
+              <li><a class="nav__link" data-scroll="#roadmap">Roadmap</a></li>
             </ul>
           </nav>
         </div>
@@ -76,7 +76,7 @@
     </div>
 
     <!-- intro -->
-    <section class="section">
+    <section id='rapers' class="section">
       <div class="section__title wow animate__animated animate__backInDown">
         <div class="section__title--header">
           <h2>Our Rapers</h2>
@@ -110,7 +110,7 @@
         </div>
       </div>
 
-      <div class="post">
+      <div id='purpose' class="post">
         <div class="bgitems">
           <img id="smoke" src="src/img/bg_items/smoke.webp" alt="smoke" />
         </div>
@@ -129,28 +129,28 @@
             creation of comics and our merch. Sounds cool, right?
           </p>
         </div>
-
-        <div class="post__header wow animate__animated animate__backInLeft">
-          <h4>
-            Atributes & Rarity Chart
-            <img src="src/img/icons/din.webp" alt="dinamic" />
-          </h4>
-        </div>
-        <div class="post__text--short wow animate__animated animate__backInRight">
-          <p>
-            By clicking on the button below you will be taken to a page with
-            attributes and rarity chart.
-          </p>
-        </div>
+      </div>
+      
+      <div id='rarity' class="post__header wow animate__animated animate__backInLeft">
+        <h4>
+          Atributes & Rarity Chart
+          <img src="src/img/icons/din.webp" alt="dinamic" />
+        </h4>
+      </div>
+      <div class="post__text--short wow animate__animated animate__backInRight">
+        <p>
+          By clicking on the button below you will be taken to a page with
+          attributes and rarity chart.
+        </p>
+      </div>
 
         <div class="btn--wrapper wow animate__animated animate__backInUp btn--wrapper-s">
           <button class="btn--yellow">Show me</button>
           <span class="btn--blure blure2"></span>
         </div>
-      </div>
     </section>
     <!-- Cards -->
-    <section class="section section--roadmap">
+    <section id='roadmap' class="section section--roadmap">
       <div class="section__title section__title-rm">
         <div class="section__title--header wow animate__animated animate__backInUp">
           <h2>Our roadmap</h2>
@@ -442,18 +442,18 @@
           </div>
         </div>
         <!-- absolute -->
-        <button class="btn--yellow btn--yellow-ds wow animate__animated animate__backInUp">Join Discord</button>
+        <button class="btn--yellow btn--yellow-ds wow animate__animated animate__backInUp" onclick="window.location.href = 'https://discord.gg/qsdr4VC7Wd'">Join Discord</button>
       </div>
     </section>
     <!-- Join -->
     <footer class="footer">
       <div class="footer__items wow animate__animated animate__backInUp">
         <div class="footer__item">
-          <img src="src/img/logo.webp" alt="blure" />
+          <img src="src/img/logo.webp" alt="blure"/>
         </div>
         <div class="footer__item footer__item--icons">
-          <a><img src="./src/img/icons/ds.svg" alt="discord" /></a>
-          <a><img src="./src/img/icons/twitter.svg" alt="twitter" /></a>
+          <a href="https://discord.gg/qsdr4VC7Wd"><img src="./src/img/icons/ds.svg" alt="discord" /></a>
+          <a href='https://twitter.com/quarter_aesthet'><img src="./src/img/icons/twitter.svg" alt="twitter" /></a>
         </div>
       </div>
     </footer>

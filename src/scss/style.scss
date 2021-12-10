@@ -75,6 +75,7 @@ body {
             border-radius: 42px;
             position: relative;
             z-index: 1;
+            cursor: pointer;
         }
 
         
@@ -85,6 +86,7 @@ body {
             line-height: 58px;
             margin-left: 45px;
             font-weight: 700;
+            cursor: pointer;
 
             &::after {
                 position: absolute;
@@ -183,6 +185,7 @@ body {
     border-radius: 42px;
     background: none;
     padding: 18px 33px 19px 33px;
+    cursor: pointer;
 }
 
 
@@ -196,6 +199,7 @@ body {
     background: #A6A849;
     border-radius: 58px;
     z-index: 1;
+    cursor: pointer;
 }
 
 .btn--wrapper-s {
@@ -221,9 +225,7 @@ nav {
 .nav__links {
     display: flex;
     li {
-        .nav__active {
-            font-weight: 700;
-        }
+        
         
         a {
             margin-right: 25px;
@@ -232,11 +234,15 @@ nav {
             text-transform: uppercase;
             text-decoration: none;
             font-weight: 500;
+            cursor: pointer;
+            transition: all .3s linear;
         }
-        .nav__active {
+        
+        &:hover a {
             color: #fff;
             position: relative;
-            font-weight: 700;
+            font-weight: 700; 
+
             &::after {
                 content: '';
                 display: block;
@@ -245,11 +251,12 @@ nav {
                 bottom: -5px;
                 width: 30px;
                 height: 5px;
-                
                 background: #A6A849;
                 border-radius: 9px;
+                transition: width .4s linear;
             }
         }
+
     }
 } 
 
