@@ -11,9 +11,8 @@ const navWrapper = document.querySelector('.nav__links')
 
 navWrapper.addEventListener('click', (e) => {
     if (e.target.classList.contains('nav__link')){
-        const id = e.target.getAttribute('data-scroll').substr(1)
-        console.log(id)
-        scrollTo(document.querySelector(`#${id}`))
+        const id = e.target.getAttribute('data-scroll')
+        scrollTo(document.getElementById(id))
     }
 })
 
