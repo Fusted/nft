@@ -156,11 +156,13 @@ body {
 }
 
 .header__item {
-    display: -webkit-box;display: -ms-flexbox;display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+        display: flex;
 
     img {
         height: 70px;
-        margin: auto;
+        margin: auto 0;
         margin-right: 25px;
     }
     

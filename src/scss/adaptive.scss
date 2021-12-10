@@ -309,8 +309,11 @@ $c: 1.3;
   }
 
   .header .header__item {
+
     img {
-      height: 60%;
+      // height: 60%;
+      width: 60%;
+      height: auto;
     }
 
     .btn {
@@ -320,6 +323,7 @@ $c: 1.3;
 
   nav {
     padding-left: 10px;
+    width: 100%;
     .nav__toggle {
       width: 40px;
       height: 35px;
@@ -346,10 +350,7 @@ $c: 1.3;
     }
   }
 
-  // .btn {
-  //   margin-right: 20px !important;
-  // }
-
+ 
 
   .bgitems {
 
