@@ -146,20 +146,23 @@ body {
 }
 
 .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-bottom: 5.5vh;
 }
 
 .header__item {
-    display: flex;
-    /*0 .28 */
+    display: -webkit-box;display: -ms-flexbox;display: flex;
+
     img {
         height: 70px;
         margin: auto;
         margin-right: 25px;
     }
-/* 1vw = 19.2px*/
     
     .header__item--text {
         margin-left: 10px;
@@ -170,13 +173,11 @@ body {
             position: absolute;
             top: 50%;
             left: 50%;
-            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+                -ms-transform: translateY(-50%);
+                    transform: translateY(-50%);
         }
     }
-
-    
-
-    
 
 }
 
