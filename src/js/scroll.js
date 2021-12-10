@@ -16,3 +16,8 @@ navWrapper.addEventListener('click', (e) => {
         scrollTo(document.querySelector(`#${id}`))
     }
 })
+
+
+document.querySelector('#more').addEventListener('click', () => {
+    scrollTo(document.querySelector('#purpose'))
+})
