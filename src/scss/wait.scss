@@ -1,0 +1,37 @@
+$yellow: #A6A849;
+
+.wait__wrapper {
+    background: rgba(37, 42, 54, 0.5);
+    backdrop-filter: blur(100px);
+    border-radius: 84px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: min(4.68vw, 90px) min(4.2vw, 81px);
+    
+    width: 80%;
+    max-width: 1268px;
+}
+
+.wait__title {
+    font-weight: bold;
+    font-size: min(4.68vw, 90px);
+    line-height: 103%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.wait__subtitle {
+    font-weight: bold;
+    font-size: min(2.6vw, 50px);
+    line-height: 103%;
+    text-align: center;
+    color: $yellow;
+}
+
+nav .nav__links {
+    // left: 500%;
+}

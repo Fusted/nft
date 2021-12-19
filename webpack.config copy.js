@@ -1,17 +1,24 @@
 const path = require('path');
 
 module.exports = {
-  context: __dirname + '/src/pages/',
-
   entry: {
-    app: "./app",
-    mint: "./mint"
+    index: './src/app.js',
   },
-  mode: 'development',
+  mode: 'production',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: '[name].js'
+    filename: 'bundle.js'
   },
+
+  entry: {
+    mint: './src/mint.js',
+  },
+
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'bundle2.js'
+  },
+
 
   module: {
     rules: [
