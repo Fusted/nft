@@ -32,6 +32,17 @@ $yellow: #A6A849;
     color: $yellow;
 }
 
-nav .nav__links {
-    // left: 500%;
+.ul--active {
+    &.nav__links {
+        left: 0;
+        transform: translateX(-5%)
+    }
+}
+
+
+@media (max-width: 768px) {
+    .btn {
+        width: auto;
+        height: auto;
+    }
 }
