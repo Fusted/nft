@@ -420,7 +420,7 @@ eval("module.exports = __webpack_require__.p + \"279c452b8e8f75f7162c.webp\";\n\
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-eval("module.exports = __webpack_require__.p + \"6213707ed39ffdda9dba.svg\";\n\n//# sourceURL=webpack:///../img/cross.svg?");
+eval("module.exports = __webpack_require__.p + \"8f51b75d49001c432a24.svg\";\n\n//# sourceURL=webpack:///../img/cross.svg?");
 
 /***/ }),
 
@@ -453,7 +453,7 @@ eval("module.exports = __webpack_require__.p + \"aa4304809183f7106166.webp\";\n\
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-eval("module.exports = __webpack_require__.p + \"3a4e97056dc5b5bb6882.svg\";\n\n//# sourceURL=webpack:///../img/plus.svg?");
+eval("module.exports = __webpack_require__.p + \"b5c58a31cf4c5f68f518.svg\";\n\n//# sourceURL=webpack:///../img/plus.svg?");
 
 /***/ })
 
